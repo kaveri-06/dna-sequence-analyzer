@@ -90,9 +90,8 @@ def main():
             
         # 4. Graphical Output
         print("\n[INFO] Generating GC content plot...")
-        window_size = 20
-        gc_profile = sliding_window_gc(dna, window_size=window_size)
-        
+        window_size = 2  window_size = 20
+        gc_profile = sliding_window_gc(dna, window_size=window_size)      
         plt.figure(figsize=(10, 4))
         plt.plot(range(len(gc_profile)), gc_profile, color='teal', linewidth=2)
         plt.title(f"Sliding Window GC Content Distribution (Window = {window_size} bp)")
