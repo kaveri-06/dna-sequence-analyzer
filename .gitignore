@@ -1,0 +1,28 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller temporary build artifacts
+build/
+dist/
+*.spec
+tcl_bundle/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Output exports & test artifacts
+*.csv
+*.json
+*.png
+!sample_data/*
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

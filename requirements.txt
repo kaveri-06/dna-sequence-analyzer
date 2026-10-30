@@ -1,0 +1,5 @@
+# Core application dependencies
+matplotlib>=3.7.0
+
+# Build dependencies (for packaging into standalone executable)
+pyinstaller>=6.0.0
